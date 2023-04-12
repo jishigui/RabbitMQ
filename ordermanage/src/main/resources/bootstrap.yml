@@ -1,0 +1,10 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: ordermanage
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 121.37.216.114

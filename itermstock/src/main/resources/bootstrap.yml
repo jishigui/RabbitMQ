@@ -1,0 +1,10 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: itermstock
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 121.37.216.114
