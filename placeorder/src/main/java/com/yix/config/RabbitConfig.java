@@ -17,7 +17,7 @@ public class RabbitConfig {
 
     @Bean
     public Exchange placeOrderExchange() {
-        return ExchangeBuilder.fanoutExchange(CONPON_QUEUE).build();
+        return ExchangeBuilder.fanoutExchange(PLACE_ORDER_EXCHANGE).build();
     }
 
     @Bean

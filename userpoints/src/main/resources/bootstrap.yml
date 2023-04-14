@@ -17,3 +17,9 @@ spring:
     listener:
       simple:
         acknowledge-mode: manual
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://25.6.72.40:3306/user_points_idempotent?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
