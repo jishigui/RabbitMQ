@@ -17,3 +17,12 @@ spring:
     listener:
       simple:
         acknowledge-mode: manual
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    template:
+      mandatory: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.37.216.114:3306/Rabbit?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
